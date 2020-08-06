@@ -85,7 +85,7 @@ $(document).ready(function() {
 	uvIndexURL = "https://api.openweathermap.org/data/2.5/uvi?appid=";
     $.ajax({
       type: "GET",
-      url: uvIndexURL + apiKey + "&lat=" + lat + "&lon=" + lon,
+      url: uvIndexURL +apiKey + "&lat=" +lat +"&lon=" +lon,
       dataType: "json",
       success: function(data) {
 
