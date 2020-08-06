@@ -15,7 +15,7 @@ $(document).ready(function() {
     $(".history").append(li);
   }
 
-  const apiKey = "403783a695c1e4ff5ef575194d5b11f9";
+  var apiKey = "403783a695c1e4ff5ef575194d5b11f9";
   var dateTime = moment();
 
   function searchWeather(searchValue) {
